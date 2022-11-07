@@ -9,49 +9,48 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <h1>MI 349 Blog Home</h1>
-    </header>
-
-    <nav>
-        <ul>
-            <li class="links"><a href="index.html">Home</a></li>
-            <li class="links"><a href="about.html">About</a></li>
-            <li class="links"><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="stick">
+        <header>
+            <h1>MI 349 Blog Home</h1>
+        </header>
+    
+        <nav>
+            <ul>
+                <li class="links"><a href="index.html">Home</a></li>
+                <li class="links"><a href="about.html">About</a></li>
+                <li class="links"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 
     <main>
 
-        <form>
-            <div>
+        <form class="contact">
+            <div class="contact_input">
                 <label>
-                    Enter your name
-                    <input type="text">
+                    <input type="text" placeholder="Enter your name">
                 </label>
             </div>
-            <div>
+            <div class="contact_input">
                 <label>
-                    Enter your email
-                    <input type="text">
+                    <input type="text" placeholder="Enter your email">
                 </label>
             </div>
-            <div>
+            <div class="contact_input">
                 <label>
-                    Reason for contact
                     <select>
+                        <option value="" disabled selected>Contact reason</option>
                         <option>hi, looking for a contractor</option>
                         <option>interested in an interview</option>
                     </select>
                 </label>
             </div>
-            <div>
+            <div class="contact_input">
                 <label>
-                    Comments
-                    <textarea></textarea>
+                    <textarea placeholder="Comments"></textarea>
                 </label>
             </div>
-            <div>
+            <div class="contact_input">
                 <label>
                     <input type="submit">
                 </label>

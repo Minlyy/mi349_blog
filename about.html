@@ -9,33 +9,37 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <h1>MI 349 Blog About</h1>
-    </header>
-
-    <nav>
-        <ul>
-            <li class="links"><a href="index.html">Home</a></li>
-            <li class="links"><a href="about.html">About</a></li>
-            <li class="links"><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="stick">
+        <header>
+            <h1>MI 349 Blog Home</h1>
+        </header>
+    
+        <nav>
+            <ul>
+                <li class="links"><a href="index.html">Home</a></li>
+                <li class="links"><a href="about.html">About</a></li>
+                <li class="links"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 
     <main>
-        <article>
-            <h2>Bio</h2>
-            <img src="my-photo.jpg" alt="my-photo">
-            <p>Hello, I'm Minsong Zheng. I'm currently a senior at Michigan State University
+        <h2>Bio</h2>
+        <article class="three_columns">
+            <p class="flex_one">Hello, I'm Minsong Zheng. I'm currently a senior at Michigan State University
                 studying computer science. 
             </p>
-            <h3>List of programming languages I know</h3>
-            <ul>
-                <li>c++</li>
-                <li>c</li>
-                <li>c#</li>
-                <li>Python</li>
-                <li>JavaScript</li>
-            </ul>
+            <img src="my-photo.jpg" alt="my-photo" class="about_img">
+            <div class="flex_one">
+                <h3>List of programming languages I know</h3>
+                <ul>
+                    <li>c++</li>
+                    <li>c</li>
+                    <li>c#</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
         </article>
     </main>
 </body>
