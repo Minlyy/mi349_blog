@@ -8,6 +8,7 @@ body {
     color: #242424;
     border-top: 10px solid #242424;
     background: #fff;
+    font-size: 1vw;
 }
 h1 {
     font-size: 3em;
@@ -67,14 +68,15 @@ time {
 .blog_container {
     background: #ccc;
     display: flex;
+    flex-direction: row;
 }
 
 .blog-post {
     background: #999;
     padding: 20px;
     margin: 20px;
-    width:100%;
     border-bottom: 1px dotted #ccc;
+    flex: 1;
 }
 
 .subscribe {
@@ -92,5 +94,8 @@ time {
     margin-top: 10px;
 }
 
-
-  
+@media (max-width: 400px) {
+    .blog_container {
+        flex-direction: column;
+    }
+}
